@@ -12,6 +12,7 @@
 
 <template>
     <div class="call-container flex flex-col">
+        <div class="call-data flex flex-col items-center">
         <h1 class="text-4xl mb-5">Nos siga em nossas redes socias e veja nossas atualizações.</h1>
        <div class="instagram-container">
         <button @click="linkToInstagram()" type="button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 flex flex-row items-start">
@@ -35,4 +36,13 @@
         </button>
        </div>
     </div>
+    </div>
 </template>
+
+<style scoped>
+    .call-data{
+        padding-top: 100px;
+        height: 100vh;
+        background-color: rgb(239, 234, 227);
+    }
+</style>

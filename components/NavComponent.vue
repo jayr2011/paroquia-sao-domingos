@@ -14,8 +14,8 @@ const openDropdown = computed(() => {
 </script>
 
 <template>
-<nav class="bg-gray-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-  <div class="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4">
+<nav class="fixed w-full z-50 bg-gray-100 border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+  <div class="bg-gray-100 max-w-full flex flex-wrap items-center  justify-between mx-auto p-4">
     <NuxtLink to="/">
       <a href="#" class="flex items-center space-x-9 rtl:space-x-reverse">
         <img src="../assets/images/pascom.jpeg" class="h-12 rounded-full" alt="Flowbite Logo" />

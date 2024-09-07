@@ -2,6 +2,7 @@
   <NuxtLayout>
     <NavComponent class="nav-item" />
     <NuxtPage class="font" />
+    <Footer />
   </NuxtLayout>
 </template>
 <style>
